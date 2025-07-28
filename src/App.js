@@ -41,7 +41,8 @@ function App() {
     }
 
     function clearMood(e){
-      
+      setMoods([]);
+      localStorage.removeItem(LOCAL_STORAGE_KEY);
     }
 
   return (
@@ -53,7 +54,7 @@ function App() {
       <textarea id="mood-note" ref={noteRef}></textarea>
       <div class="button-group">
         <button onClick={addMood}>Add</button>
-        <button>Clear All</button>
+        <button onClick={clearMood}>Clear All</button>
       </div>
       <MoodList pastMoods ={moods} />
     </>
