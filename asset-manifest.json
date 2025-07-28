@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mood-tracker/static/css/main.52ddee31.css",
-    "main.js": "/mood-tracker/static/js/main.820fe613.js",
+    "main.js": "/mood-tracker/static/js/main.acae59c1.js",
     "index.html": "/mood-tracker/index.html",
     "main.52ddee31.css.map": "/mood-tracker/static/css/main.52ddee31.css.map",
-    "main.820fe613.js.map": "/mood-tracker/static/js/main.820fe613.js.map"
+    "main.acae59c1.js.map": "/mood-tracker/static/js/main.acae59c1.js.map"
   },
   "entrypoints": [
     "static/css/main.52ddee31.css",
-    "static/js/main.820fe613.js"
+    "static/js/main.acae59c1.js"
   ]
 }
